@@ -1,4 +1,4 @@
-<img src="imagenes/html5-css3.jpg">
+<img src="extras/imagenes/html5-css3.jpg">
 
 # Curso de HTML Fundamentos - código 57970
 
