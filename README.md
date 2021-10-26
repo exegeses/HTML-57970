@@ -51,3 +51,4 @@ Atom: <https://atom.io/>
 	</elemento>
 
 
+<img src="extras/imagenes/landing.jpg">
