@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    font-family: verdana;
+}
+header{
+    height: 130px;
+    background-color: #29110C;
+}
+nav{
+    height: 60px;
+    background-color: #D55F54;
+    text-align: center;
+}
+/* menu */
+    nav a{
+        color: #FFFCA2;
+        text-decoration: none; /* quitar subrayado */
+        line-height: 60px;  /* misma altura que el nav */
+        display: inline-block;
+        width: 120px;
+    }
+    nav a:hover{
+        background-color: #e87369;
+    }
+
+main{
+    height: 560px;
+}
+footer{
+    height: 150px;
+    background-color: #29110C;
+}

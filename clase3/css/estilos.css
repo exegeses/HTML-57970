@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(215, 216, 213);
+    font-family: Tahoma;
+    color: #666;
+}
+
+p{
+    background-color: rgb(194, 255, 249);
+    /* margin  separación hacia FUERA de una caja */
+    margin: 50px;
+
+    /* padding  separación hacia DENTRTO de una caja */
+    padding: 16px; 
+}
