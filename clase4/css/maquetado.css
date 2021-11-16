@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{ box-sizing: border-box; }
+body{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+header{
+    height: 130px;
+    background-color: #29110C;
+}
+nav{
+    height: 60px;
+    background-color: #D55F54;
+    text-align: center;
+}
+/* menu */
+    nav a{
+        color: #FFFCA2;
+        text-decoration: none; /* quitar subrayado */
+        line-height: 60px;  /* misma altura que el nav */
+        display: inline-block;
+        width: 120px;
+    }
+    nav a:hover{
+        background-color: #e87369;
+    }
+
+main{
+    min-height: 560px;
+    padding-top: 20px; /* separación INTERNA */
+    padding-bottom: 20px; /* separación INTERNA */
+    width: 1024px;
+    margin: auto; /* centrar una caja */
+    display: flex;  /* para ubicar los articles uno al lado del otro */
+    flex-wrap: wrap;  /* respeta los anchos cuando tenemos flex */
+    justify-content: space-between; /* el espacio sobrante en main */
+}
+    h1{
+        width: 100%;
+    }
+
+    article{
+        width: 310px;
+        padding: 20px;
+    }
+
+footer{
+    height: 150px;
+    background-color: #29110C;
+    color: #FFFCA2;
+    text-align: center;
+    line-height: 150px;
+}
